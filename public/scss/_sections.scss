@@ -409,6 +409,7 @@
       img {
         width: 100%;
         min-height: 450px;
+        max-height: 450px;
         object-fit: cover;
       }
       &::after {

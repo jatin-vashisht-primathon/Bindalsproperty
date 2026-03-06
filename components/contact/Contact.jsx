@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Breadcumb from "../common/Breadcumb";
 import DropdownSelect from "../common/DropdownSelect";
 
 export default function Contact() {
@@ -41,6 +42,8 @@ export default function Contact() {
   };
 
   return (
+    <>
+    <Breadcumb pageName="Contact" />
     <section className="section-top-map style-2">
       <div style={{ marginTop: "40px" }} className="box">
         <div className="tf-container">
@@ -141,5 +144,6 @@ export default function Contact() {
         </div>
       </div>
     </section>
+    </>
   );
 }

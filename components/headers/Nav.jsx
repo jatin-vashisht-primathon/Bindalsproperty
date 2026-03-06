@@ -30,6 +30,11 @@ export default function Nav() {
           <li>
             <Link href="/property/apartments">Apartment</Link>
           </li>
+            <li><Link href="#">Villa</Link></li>
+            <li><Link href="#">Studio</Link></li>
+            <li><Link href="#">Office</Link></li>
+            <li><Link href="#">Townhouse</Link></li>
+            <li><Link href="/property/commercials">Commercial</Link></li>
         </ul>
       </li>
         <li className={"/faq" == pathname ? "current-menu" : ""}>

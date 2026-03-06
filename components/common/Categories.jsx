@@ -48,7 +48,7 @@ Every service is delivered with transparency, expertise, and client-focused supp
             {categories.map((category, index) => (
               <SwiperSlide className="swiper-slide" key={index}>
                 <Link
-                  href={category.name === "Apartment" ? "/#properties" : "#"}
+                  href={category.href}
                   className={`categories-item`}
                 >
                   <div className="icon-box">

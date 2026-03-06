@@ -15,7 +15,7 @@ export const properties = [
   },
   {
     id: 2,
-    imageSrc: "/images/section/sl/1.jpeg",
+    imageSrc: "/images/section/sl/3.jpeg",
     title: "MAHADEV APARTMENT",
     location: "Dasrathpuri metro station gate no 3,Mahavir Enclave Part 1,  New Delhi - 110045",
     beds: 3,
@@ -29,7 +29,7 @@ export const properties = [
   },
   {
     id: 3,
-    imageSrc: "/images/section/sl/1.jpeg",
+    imageSrc: "/images/section/sl/5.jpeg",
     title: "MAHADEV APARTMENT",
     location: "Dasrathpuri metro station gate no 3,Mahavir Enclave Part 1,  New Delhi - 110045",
     beds: 4,
@@ -53,6 +53,51 @@ export const properties = [
     long: -74.010316,
     lat: 40.715504,
     categories: ["Apartments", "Farm house", "Villas"],
+    cities: ["Dwarka", "Delhi"],
+  },
+  {
+    id: 5,
+    imageSrc: "/images/section/sl/6.jpeg",
+    title: "N/A",
+    location: "N/A",
+    beds: 3,
+    baths: 3,
+    sqft: "900",
+    price: "95 lacs",
+    long: -74.010316,
+    lat: 40.715504,
+    categories: ["Apartments", "Farm house", "Villas"],
+    cities: ["Dwarka", "Delhi"],
+    images: Array.from({ length: 20 }, (_, i) => `/images/apartments/apartment${i + 1}.jpeg`),
+  },
+  {
+    id: 6,
+    imageSrc: "/images/section/sl/7.jpeg",
+    title: "N/A",
+    location: "N/A",
+    beds: 4,
+    baths: 3,
+    sqft: "1125",
+    price: "1.25 Cr",
+    long: -74.010316,
+    lat: 40.715504,
+    categories: ["Apartments", "Farm house", "Villas"],
+    cities: ["Dwarka", "Delhi"],
+    images: Array.from({ length: 20 }, (_, i) => `/images/apartments/apartment${i + 1}.jpeg`),
+  },
+  {
+    id: 62,
+    imageSrc: "/images/aparment21.jpeg",
+    images: ["/images/aparment21.jpeg"],
+    title: "3BHK Semi Furnished Flat",
+    location: "Mahavir Enclave, Part-1, New Delhi",
+    beds: 3,
+    baths: 2,
+    sqft: "810",
+    price: "75 lacs",
+    long: -74.010316,
+    lat: 40.715504,
+    categories: ["Apartments", "Flats"],
     cities: ["Dwarka", "Delhi"],
   },
   // {
@@ -843,6 +888,22 @@ export const propertySlidesData = [
   },
 ];
 
+export const commercials = [
+  {
+    id: 101,
+    imageSrc: "/images/commercial1.jpeg",
+    images: Array.from({ length: 5 }, (_, i) => `/images/commercial${i + 1}.jpeg`),
+    title: "Commercial Office Space",
+    location: "Dwarka Sec 23-B, New Delhi",
+    area: "225 Sq Yards",
+    price: "2.5 Cr",
+    description:
+      "Fully functional office near Yashobhumi Convention Centre, opposite Golf Course Delhi. 5-6 km from IGI Airport. Prime Location with 100 Ft Main Road in front of building.",
+    categories: ["Commercial"],
+    cities: ["Dwarka", "Delhi"],
+  },
+];
+
 export const allProperties = [
   ...properties,
   ...properties2,
@@ -856,4 +917,5 @@ export const allProperties = [
   ...properties10,
   ...properties11,
   ...propertySlidesData,
+  ...commercials,
 ];

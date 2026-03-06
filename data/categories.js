@@ -1,10 +1,10 @@
 export const categories = [
-  { name: "Apartment", icon: "icon-apartment1", isActive: false },
-  { name: "Villa", icon: "icon-villa", isActive: false },
-  { name: "Studio", icon: "icon-studio", isActive: true },
-  { name: "Office", icon: "icon-office1", isActive: false },
-  { name: "Townhouse", icon: "icon-townhouse", isActive: false },
-  { name: "Commercial", icon: "icon-commercial", isActive: false },
+  { href: '/property/apartments', name: "Apartment", icon: "icon-apartment1", isActive: false },
+  { href: '/property/villa', name: "Villa", icon: "icon-villa", isActive: false },
+  { href: '/property/studio', name: "Studio", icon: "icon-studio", isActive: true },
+  { href: '/property/office', name: "Office", icon: "icon-office1", isActive: false },
+  { href: '/property/townhouse', name: "Townhouse", icon: "icon-townhouse", isActive: false },
+  { href: '/property/commercials', name: "Commercial", icon: "icon-commercial", isActive: false },
 ];
 
 export const categories2 = [
